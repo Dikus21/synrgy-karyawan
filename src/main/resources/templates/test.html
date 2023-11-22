@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Spring MVC Demo</title>
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="karyawan : ${listKaryawan}">
+        <td th:text="${karyawan.id}"></td>
+        <td th:text="${karyawan.name}"></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

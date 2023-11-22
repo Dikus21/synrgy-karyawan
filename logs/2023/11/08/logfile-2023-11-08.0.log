@@ -1,0 +1,790 @@
+[2023-11-08 00:02:14,923][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-08 00:02:14,924][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2023-11-08 00:02:14,926][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2023-11-08 19:44:35,286][INFO ][org.springframework.boot.StartupInfoLogger][main][51]Starting KaryawanApplication using Java 20 with PID 15244 (D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan\target\classes started by Andika in D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan)
+[2023-11-08 19:44:35,288][INFO ][org.springframework.boot.SpringApplication][main][637]No active profile set, falling back to 1 default profile: "default"
+[2023-11-08 19:44:35,909][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][138]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-11-08 19:44:35,953][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][208]Finished Spring Data repository scanning in 39 ms. Found 5 JPA repository interfaces.
+[2023-11-08 19:44:36,342][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][108]Tomcat initialized with port(s): 8081 (http)
+[2023-11-08 19:44:36,348][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8081"]
+[2023-11-08 19:44:36,349][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2023-11-08 19:44:36,349][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.13]
+[2023-11-08 19:44:36,407][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2023-11-08 19:44:36,407][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][291]Root WebApplicationContext: initialization completed in 1094 ms
+[2023-11-08 19:44:36,510][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-11-08 19:44:36,551][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.2.9.Final
+[2023-11-08 19:44:36,553][INFO ][org.hibernate.cfg.Environment][main][191]HHH000406: Using bytecode reflection optimizer
+[2023-11-08 19:44:36,640][INFO ][org.hibernate.bytecode.internal.BytecodeProviderInitiator][main][53]HHH000021: Bytecode provider name : bytebuddy
+[2023-11-08 19:44:36,733][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2023-11-08 19:44:36,742][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2023-11-08 19:44:36,975][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5d717f19
+[2023-11-08 19:44:36,976][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2023-11-08 19:44:37,195][INFO ][org.hibernate.bytecode.internal.BytecodeProviderInitiator][main][53]HHH000021: Bytecode provider name : bytebuddy
+[2023-11-08 19:44:37,599][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][51]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-11-08 19:44:37,670][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-08 19:44:37,818][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][47]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2023-11-08 19:44:38,069][WARN ][org.springframework.context.support.AbstractApplicationContext][main][616]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileController': Unsatisfied dependency expressed through field 'fileStorageService': Error creating bean with name 'fileStorageService' defined in file [D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan\target\classes\com\aplikasi\karyawan\controller\fileupload\FileStorageService.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.aplikasi.karyawan.controller.fileupload.FileStorageProperties' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[2023-11-08 19:44:38,069][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-08 19:44:38,071][INFO ][com.zaxxer.hikari.HikariDataSource][main][350]HikariPool-1 - Shutdown initiated...
+[2023-11-08 19:44:38,073][INFO ][com.zaxxer.hikari.HikariDataSource][main][352]HikariPool-1 - Shutdown completed.
+[2023-11-08 19:44:38,075][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Stopping service [Tomcat]
+[2023-11-08 19:44:38,083][INFO ][org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger][main][82]
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2023-11-08 19:44:38,098][ERROR][org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter][main][40]
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.aplikasi.karyawan.controller.fileupload.FileStorageService required a bean of type 'com.aplikasi.karyawan.controller.fileupload.FileStorageProperties' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.aplikasi.karyawan.controller.fileupload.FileStorageProperties' in your configuration.
+
+[2023-11-08 19:49:20,669][INFO ][org.springframework.boot.StartupInfoLogger][main][51]Starting KaryawanApplication using Java 20 with PID 4396 (D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan\target\classes started by Andika in D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan)
+[2023-11-08 19:49:20,670][INFO ][org.springframework.boot.SpringApplication][main][637]No active profile set, falling back to 1 default profile: "default"
+[2023-11-08 19:49:21,075][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][138]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-11-08 19:49:21,111][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][208]Finished Spring Data repository scanning in 31 ms. Found 5 JPA repository interfaces.
+[2023-11-08 19:49:21,438][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][108]Tomcat initialized with port(s): 8081 (http)
+[2023-11-08 19:49:21,442][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8081"]
+[2023-11-08 19:49:21,444][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2023-11-08 19:49:21,444][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.13]
+[2023-11-08 19:49:21,501][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2023-11-08 19:49:21,501][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][291]Root WebApplicationContext: initialization completed in 810 ms
+[2023-11-08 19:49:21,589][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-11-08 19:49:21,616][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.2.9.Final
+[2023-11-08 19:49:21,617][INFO ][org.hibernate.cfg.Environment][main][191]HHH000406: Using bytecode reflection optimizer
+[2023-11-08 19:49:21,679][INFO ][org.hibernate.bytecode.internal.BytecodeProviderInitiator][main][53]HHH000021: Bytecode provider name : bytebuddy
+[2023-11-08 19:49:21,747][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2023-11-08 19:49:21,755][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2023-11-08 19:49:21,875][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5fb07347
+[2023-11-08 19:49:21,876][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2023-11-08 19:49:22,057][INFO ][org.hibernate.bytecode.internal.BytecodeProviderInitiator][main][53]HHH000021: Bytecode provider name : bytebuddy
+[2023-11-08 19:49:22,426][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][51]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-11-08 19:49:22,484][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-08 19:49:22,619][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][47]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2023-11-08 19:49:22,844][WARN ][org.springframework.context.support.AbstractApplicationContext][main][616]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileController': Unsatisfied dependency expressed through field 'fileStorageService': Error creating bean with name 'fileStorageService' defined in file [D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan\target\classes\com\aplikasi\karyawan\controller\fileupload\FileStorageService.class]: Failed to instantiate [com.aplikasi.karyawan.controller.fileupload.FileStorageService]: Constructor threw exception
+[2023-11-08 19:49:22,844][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-08 19:49:22,845][INFO ][com.zaxxer.hikari.HikariDataSource][main][350]HikariPool-1 - Shutdown initiated...
+[2023-11-08 19:49:22,847][INFO ][com.zaxxer.hikari.HikariDataSource][main][352]HikariPool-1 - Shutdown completed.
+[2023-11-08 19:49:22,848][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Stopping service [Tomcat]
+[2023-11-08 19:49:22,858][INFO ][org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger][main][82]
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2023-11-08 19:49:22,869][ERROR][org.springframework.boot.SpringApplication][main][827]Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileController': Unsatisfied dependency expressed through field 'fileStorageService': Error creating bean with name 'fileStorageService' defined in file [D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan\target\classes\com\aplikasi\karyawan\controller\fileupload\FileStorageService.class]: Failed to instantiate [com.aplikasi.karyawan.controller.fileupload.FileStorageService]: Constructor threw exception
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:747)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:492)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.aplikasi.karyawan.KaryawanApplication.main(KaryawanApplication.java:16)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileStorageService' defined in file [D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan\target\classes\com\aplikasi\karyawan\controller\fileupload\FileStorageService.class]: Failed to instantiate [com.aplikasi.karyawan.controller.fileupload.FileStorageService]: Constructor threw exception
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:321)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:309)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:764)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.aplikasi.karyawan.controller.fileupload.FileStorageService]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:110)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:318)
+	... 33 common frames omitted
+Caused by: java.nio.file.InvalidPathException: Trailing char < > at index 6: ./cdn/ 
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:191)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.nio.file.Path.of(Path.java:148)
+	at java.base/java.nio.file.Paths.get(Paths.java:69)
+	at com.aplikasi.karyawan.controller.fileupload.FileStorageService.<init>(FileStorageService.java:31)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 35 common frames omitted
+[2023-11-08 19:49:55,687][INFO ][org.springframework.boot.StartupInfoLogger][main][51]Starting KaryawanApplication using Java 20 with PID 39716 (D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan\target\classes started by Andika in D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan)
+[2023-11-08 19:49:55,688][INFO ][org.springframework.boot.SpringApplication][main][637]No active profile set, falling back to 1 default profile: "default"
+[2023-11-08 19:49:56,084][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][138]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-11-08 19:49:56,124][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][208]Finished Spring Data repository scanning in 37 ms. Found 5 JPA repository interfaces.
+[2023-11-08 19:49:56,459][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][108]Tomcat initialized with port(s): 8081 (http)
+[2023-11-08 19:49:56,464][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8081"]
+[2023-11-08 19:49:56,466][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2023-11-08 19:49:56,466][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.13]
+[2023-11-08 19:49:56,519][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2023-11-08 19:49:56,520][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][291]Root WebApplicationContext: initialization completed in 807 ms
+[2023-11-08 19:49:56,613][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-11-08 19:49:56,645][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.2.9.Final
+[2023-11-08 19:49:56,646][INFO ][org.hibernate.cfg.Environment][main][191]HHH000406: Using bytecode reflection optimizer
+[2023-11-08 19:49:56,709][INFO ][org.hibernate.bytecode.internal.BytecodeProviderInitiator][main][53]HHH000021: Bytecode provider name : bytebuddy
+[2023-11-08 19:49:56,781][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2023-11-08 19:49:56,788][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2023-11-08 19:49:56,886][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@27896d3b
+[2023-11-08 19:49:56,887][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2023-11-08 19:49:57,073][INFO ][org.hibernate.bytecode.internal.BytecodeProviderInitiator][main][53]HHH000021: Bytecode provider name : bytebuddy
+[2023-11-08 19:49:57,442][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][51]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-11-08 19:49:57,501][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-08 19:49:57,650][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][47]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2023-11-08 19:49:57,878][WARN ][org.springframework.context.support.AbstractApplicationContext][main][616]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileController': Unsatisfied dependency expressed through field 'fileStorageService': Error creating bean with name 'fileStorageService' defined in file [D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan\target\classes\com\aplikasi\karyawan\controller\fileupload\FileStorageService.class]: Failed to instantiate [com.aplikasi.karyawan.controller.fileupload.FileStorageService]: Constructor threw exception
+[2023-11-08 19:49:57,879][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-08 19:49:57,880][INFO ][com.zaxxer.hikari.HikariDataSource][main][350]HikariPool-1 - Shutdown initiated...
+[2023-11-08 19:49:57,881][INFO ][com.zaxxer.hikari.HikariDataSource][main][352]HikariPool-1 - Shutdown completed.
+[2023-11-08 19:49:57,882][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Stopping service [Tomcat]
+[2023-11-08 19:49:57,888][INFO ][org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger][main][82]
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2023-11-08 19:49:57,897][ERROR][org.springframework.boot.SpringApplication][main][827]Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileController': Unsatisfied dependency expressed through field 'fileStorageService': Error creating bean with name 'fileStorageService' defined in file [D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan\target\classes\com\aplikasi\karyawan\controller\fileupload\FileStorageService.class]: Failed to instantiate [com.aplikasi.karyawan.controller.fileupload.FileStorageService]: Constructor threw exception
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:747)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:492)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.aplikasi.karyawan.KaryawanApplication.main(KaryawanApplication.java:16)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileStorageService' defined in file [D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan\target\classes\com\aplikasi\karyawan\controller\fileupload\FileStorageService.class]: Failed to instantiate [com.aplikasi.karyawan.controller.fileupload.FileStorageService]: Constructor threw exception
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:321)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:309)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:764)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.aplikasi.karyawan.controller.fileupload.FileStorageService]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:110)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:318)
+	... 33 common frames omitted
+Caused by: java.nio.file.InvalidPathException: Trailing char < > at index 6: ./cdn/ 
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:191)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.nio.file.Path.of(Path.java:148)
+	at java.base/java.nio.file.Paths.get(Paths.java:69)
+	at com.aplikasi.karyawan.controller.fileupload.FileStorageService.<init>(FileStorageService.java:31)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 35 common frames omitted
+[2023-11-08 19:50:36,662][INFO ][org.springframework.boot.StartupInfoLogger][main][51]Starting KaryawanApplication using Java 20 with PID 22084 (D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan\target\classes started by Andika in D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan)
+[2023-11-08 19:50:36,663][INFO ][org.springframework.boot.SpringApplication][main][637]No active profile set, falling back to 1 default profile: "default"
+[2023-11-08 19:50:37,045][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][138]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-11-08 19:50:37,085][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][208]Finished Spring Data repository scanning in 36 ms. Found 5 JPA repository interfaces.
+[2023-11-08 19:50:37,421][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][108]Tomcat initialized with port(s): 8081 (http)
+[2023-11-08 19:50:37,425][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8081"]
+[2023-11-08 19:50:37,426][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2023-11-08 19:50:37,426][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.13]
+[2023-11-08 19:50:37,479][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2023-11-08 19:50:37,479][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][291]Root WebApplicationContext: initialization completed in 792 ms
+[2023-11-08 19:50:37,570][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-11-08 19:50:37,594][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.2.9.Final
+[2023-11-08 19:50:37,595][INFO ][org.hibernate.cfg.Environment][main][191]HHH000406: Using bytecode reflection optimizer
+[2023-11-08 19:50:37,658][INFO ][org.hibernate.bytecode.internal.BytecodeProviderInitiator][main][53]HHH000021: Bytecode provider name : bytebuddy
+[2023-11-08 19:50:37,729][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2023-11-08 19:50:37,737][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2023-11-08 19:50:37,843][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6e5f5478
+[2023-11-08 19:50:37,844][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2023-11-08 19:50:38,053][INFO ][org.hibernate.bytecode.internal.BytecodeProviderInitiator][main][53]HHH000021: Bytecode provider name : bytebuddy
+[2023-11-08 19:50:38,420][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][51]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-11-08 19:50:38,477][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-08 19:50:38,617][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][47]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2023-11-08 19:50:38,841][WARN ][org.springframework.context.support.AbstractApplicationContext][main][616]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileController': Unsatisfied dependency expressed through field 'fileStorageService': Error creating bean with name 'fileStorageService' defined in file [D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan\target\classes\com\aplikasi\karyawan\controller\fileupload\FileStorageService.class]: Failed to instantiate [com.aplikasi.karyawan.controller.fileupload.FileStorageService]: Constructor threw exception
+[2023-11-08 19:50:38,841][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-08 19:50:38,843][INFO ][com.zaxxer.hikari.HikariDataSource][main][350]HikariPool-1 - Shutdown initiated...
+[2023-11-08 19:50:38,846][INFO ][com.zaxxer.hikari.HikariDataSource][main][352]HikariPool-1 - Shutdown completed.
+[2023-11-08 19:50:38,848][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Stopping service [Tomcat]
+[2023-11-08 19:50:38,859][INFO ][org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger][main][82]
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2023-11-08 19:50:38,871][ERROR][org.springframework.boot.SpringApplication][main][827]Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileController': Unsatisfied dependency expressed through field 'fileStorageService': Error creating bean with name 'fileStorageService' defined in file [D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan\target\classes\com\aplikasi\karyawan\controller\fileupload\FileStorageService.class]: Failed to instantiate [com.aplikasi.karyawan.controller.fileupload.FileStorageService]: Constructor threw exception
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:747)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:492)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.aplikasi.karyawan.KaryawanApplication.main(KaryawanApplication.java:16)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileStorageService' defined in file [D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan\target\classes\com\aplikasi\karyawan\controller\fileupload\FileStorageService.class]: Failed to instantiate [com.aplikasi.karyawan.controller.fileupload.FileStorageService]: Constructor threw exception
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:321)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:309)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:764)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.aplikasi.karyawan.controller.fileupload.FileStorageService]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:110)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:318)
+	... 33 common frames omitted
+Caused by: java.nio.file.InvalidPathException: Trailing char < > at index 6: ./cdn/ 
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:191)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.nio.file.Path.of(Path.java:148)
+	at java.base/java.nio.file.Paths.get(Paths.java:69)
+	at com.aplikasi.karyawan.controller.fileupload.FileStorageService.<init>(FileStorageService.java:31)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 35 common frames omitted
+[2023-11-08 19:54:05,788][INFO ][org.springframework.boot.StartupInfoLogger][main][51]Starting KaryawanApplication using Java 20 with PID 47816 (D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan\target\classes started by Andika in D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan)
+[2023-11-08 19:54:05,791][INFO ][org.springframework.boot.SpringApplication][main][637]No active profile set, falling back to 1 default profile: "default"
+[2023-11-08 19:54:06,177][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][138]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-11-08 19:54:06,217][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][208]Finished Spring Data repository scanning in 37 ms. Found 5 JPA repository interfaces.
+[2023-11-08 19:54:06,542][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][108]Tomcat initialized with port(s): 8081 (http)
+[2023-11-08 19:54:06,546][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8081"]
+[2023-11-08 19:54:06,548][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2023-11-08 19:54:06,548][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.13]
+[2023-11-08 19:54:06,600][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2023-11-08 19:54:06,601][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][291]Root WebApplicationContext: initialization completed in 787 ms
+[2023-11-08 19:54:06,690][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-11-08 19:54:06,717][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.2.9.Final
+[2023-11-08 19:54:06,718][INFO ][org.hibernate.cfg.Environment][main][191]HHH000406: Using bytecode reflection optimizer
+[2023-11-08 19:54:06,779][INFO ][org.hibernate.bytecode.internal.BytecodeProviderInitiator][main][53]HHH000021: Bytecode provider name : bytebuddy
+[2023-11-08 19:54:06,852][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2023-11-08 19:54:06,861][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2023-11-08 19:54:06,999][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@27dbaa33
+[2023-11-08 19:54:07,000][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2023-11-08 19:54:07,173][INFO ][org.hibernate.bytecode.internal.BytecodeProviderInitiator][main][53]HHH000021: Bytecode provider name : bytebuddy
+[2023-11-08 19:54:07,522][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][51]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-11-08 19:54:07,576][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-08 19:54:07,726][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][47]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2023-11-08 19:54:07,938][WARN ][org.springframework.context.support.AbstractApplicationContext][main][616]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileController': Unsatisfied dependency expressed through field 'fileStorageService': Error creating bean with name 'fileStorageService' defined in file [D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan\target\classes\com\aplikasi\karyawan\controller\fileupload\FileStorageService.class]: Failed to instantiate [com.aplikasi.karyawan.controller.fileupload.FileStorageService]: Constructor threw exception
+[2023-11-08 19:54:07,938][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-08 19:54:07,939][INFO ][com.zaxxer.hikari.HikariDataSource][main][350]HikariPool-1 - Shutdown initiated...
+[2023-11-08 19:54:07,942][INFO ][com.zaxxer.hikari.HikariDataSource][main][352]HikariPool-1 - Shutdown completed.
+[2023-11-08 19:54:07,944][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Stopping service [Tomcat]
+[2023-11-08 19:54:07,949][INFO ][org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger][main][82]
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2023-11-08 19:54:07,959][ERROR][org.springframework.boot.SpringApplication][main][827]Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileController': Unsatisfied dependency expressed through field 'fileStorageService': Error creating bean with name 'fileStorageService' defined in file [D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan\target\classes\com\aplikasi\karyawan\controller\fileupload\FileStorageService.class]: Failed to instantiate [com.aplikasi.karyawan.controller.fileupload.FileStorageService]: Constructor threw exception
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:747)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:492)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.aplikasi.karyawan.KaryawanApplication.main(KaryawanApplication.java:16)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileStorageService' defined in file [D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan\target\classes\com\aplikasi\karyawan\controller\fileupload\FileStorageService.class]: Failed to instantiate [com.aplikasi.karyawan.controller.fileupload.FileStorageService]: Constructor threw exception
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:321)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:309)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:764)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.aplikasi.karyawan.controller.fileupload.FileStorageService]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:110)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:318)
+	... 33 common frames omitted
+Caused by: java.nio.file.InvalidPathException: Trailing char < > at index 6: ./cdn/ 
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:191)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.nio.file.Path.of(Path.java:148)
+	at java.base/java.nio.file.Paths.get(Paths.java:69)
+	at com.aplikasi.karyawan.controller.fileupload.FileStorageService.<init>(FileStorageService.java:31)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 35 common frames omitted
+[2023-11-08 19:54:51,862][INFO ][org.springframework.boot.StartupInfoLogger][main][51]Starting KaryawanApplication using Java 20 with PID 4156 (D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan\target\classes started by Andika in D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan)
+[2023-11-08 19:54:51,863][INFO ][org.springframework.boot.SpringApplication][main][637]No active profile set, falling back to 1 default profile: "default"
+[2023-11-08 19:54:52,250][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][138]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-11-08 19:54:52,290][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][208]Finished Spring Data repository scanning in 36 ms. Found 5 JPA repository interfaces.
+[2023-11-08 19:54:52,631][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][108]Tomcat initialized with port(s): 8081 (http)
+[2023-11-08 19:54:52,636][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8081"]
+[2023-11-08 19:54:52,637][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2023-11-08 19:54:52,637][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.13]
+[2023-11-08 19:54:52,693][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2023-11-08 19:54:52,693][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][291]Root WebApplicationContext: initialization completed in 804 ms
+[2023-11-08 19:54:52,790][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-11-08 19:54:52,823][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.2.9.Final
+[2023-11-08 19:54:52,825][INFO ][org.hibernate.cfg.Environment][main][191]HHH000406: Using bytecode reflection optimizer
+[2023-11-08 19:54:52,886][INFO ][org.hibernate.bytecode.internal.BytecodeProviderInitiator][main][53]HHH000021: Bytecode provider name : bytebuddy
+[2023-11-08 19:54:52,955][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2023-11-08 19:54:52,962][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2023-11-08 19:54:53,056][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@27dbaa33
+[2023-11-08 19:54:53,057][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2023-11-08 19:54:53,253][INFO ][org.hibernate.bytecode.internal.BytecodeProviderInitiator][main][53]HHH000021: Bytecode provider name : bytebuddy
+[2023-11-08 19:54:53,617][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][51]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-11-08 19:54:53,671][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-08 19:54:53,826][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][47]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2023-11-08 19:54:54,115][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][231]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-11-08 19:54:54,294][WARN ][org.springframework.context.support.AbstractApplicationContext][main][616]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to introspect Class [org.springdoc.webmvc.api.OpenApiWebMvcResource] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528]
+[2023-11-08 19:54:54,294][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-08 19:54:54,296][INFO ][com.zaxxer.hikari.HikariDataSource][main][350]HikariPool-1 - Shutdown initiated...
+[2023-11-08 19:54:54,297][INFO ][com.zaxxer.hikari.HikariDataSource][main][352]HikariPool-1 - Shutdown completed.
+[2023-11-08 19:54:54,299][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Stopping service [Tomcat]
+[2023-11-08 19:54:54,305][INFO ][org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger][main][82]
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2023-11-08 19:54:54,314][ERROR][org.springframework.boot.SpringApplication][main][827]Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to introspect Class [org.springdoc.webmvc.api.OpenApiWebMvcResource] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.aplikasi.karyawan.KaryawanApplication.main(KaryawanApplication.java:16)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springdoc.webmvc.api.OpenApiWebMvcResource] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.core.MethodIntrospector.selectMethods(MethodIntrospector.java:72)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:280)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:225)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	... 16 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: javax/servlet/http/HttpServletRequest
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3502)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2601)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 29 common frames omitted
+[2023-11-08 20:00:17,667][INFO ][org.springframework.boot.StartupInfoLogger][main][51]Starting KaryawanApplication using Java 20 with PID 16608 (D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan\target\classes started by Andika in D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan)
+[2023-11-08 20:00:17,670][INFO ][org.springframework.boot.SpringApplication][main][637]No active profile set, falling back to 1 default profile: "default"
+[2023-11-08 20:00:18,088][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][138]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-11-08 20:00:18,130][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][208]Finished Spring Data repository scanning in 38 ms. Found 5 JPA repository interfaces.
+[2023-11-08 20:00:18,503][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][108]Tomcat initialized with port(s): 8081 (http)
+[2023-11-08 20:00:18,509][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8081"]
+[2023-11-08 20:00:18,511][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2023-11-08 20:00:18,511][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.13]
+[2023-11-08 20:00:18,573][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2023-11-08 20:00:18,574][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][291]Root WebApplicationContext: initialization completed in 879 ms
+[2023-11-08 20:00:18,686][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-11-08 20:00:18,720][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.2.9.Final
+[2023-11-08 20:00:18,722][INFO ][org.hibernate.cfg.Environment][main][191]HHH000406: Using bytecode reflection optimizer
+[2023-11-08 20:00:18,792][INFO ][org.hibernate.bytecode.internal.BytecodeProviderInitiator][main][53]HHH000021: Bytecode provider name : bytebuddy
+[2023-11-08 20:00:18,867][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2023-11-08 20:00:18,876][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2023-11-08 20:00:18,982][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@52a67293
+[2023-11-08 20:00:18,983][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2023-11-08 20:00:19,177][INFO ][org.hibernate.bytecode.internal.BytecodeProviderInitiator][main][53]HHH000021: Bytecode provider name : bytebuddy
+[2023-11-08 20:00:19,593][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][51]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-11-08 20:00:19,656][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-08 20:00:19,818][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][47]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2023-11-08 20:00:20,155][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][231]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-11-08 20:00:20,324][WARN ][org.springframework.context.support.AbstractApplicationContext][main][616]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to introspect Class [org.springdoc.webmvc.api.OpenApiWebMvcResource] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528]
+[2023-11-08 20:00:20,325][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-08 20:00:20,327][INFO ][com.zaxxer.hikari.HikariDataSource][main][350]HikariPool-1 - Shutdown initiated...
+[2023-11-08 20:00:20,329][INFO ][com.zaxxer.hikari.HikariDataSource][main][352]HikariPool-1 - Shutdown completed.
+[2023-11-08 20:00:20,333][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Stopping service [Tomcat]
+[2023-11-08 20:00:20,342][INFO ][org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger][main][82]
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2023-11-08 20:00:20,357][ERROR][org.springframework.boot.SpringApplication][main][827]Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to introspect Class [org.springdoc.webmvc.api.OpenApiWebMvcResource] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.aplikasi.karyawan.KaryawanApplication.main(KaryawanApplication.java:15)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springdoc.webmvc.api.OpenApiWebMvcResource] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.core.MethodIntrospector.selectMethods(MethodIntrospector.java:72)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:280)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:225)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	... 16 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: javax/servlet/http/HttpServletRequest
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3502)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2601)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 29 common frames omitted
+[2023-11-08 20:02:02,803][INFO ][org.springframework.boot.StartupInfoLogger][main][51]Starting KaryawanApplication using Java 20 with PID 25932 (D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan\target\classes started by Andika in D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan)
+[2023-11-08 20:02:02,804][INFO ][org.springframework.boot.SpringApplication][main][637]No active profile set, falling back to 1 default profile: "default"
+[2023-11-08 20:02:03,235][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][138]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-11-08 20:02:03,276][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][208]Finished Spring Data repository scanning in 37 ms. Found 5 JPA repository interfaces.
+[2023-11-08 20:02:03,667][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][108]Tomcat initialized with port(s): 8081 (http)
+[2023-11-08 20:02:03,673][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8081"]
+[2023-11-08 20:02:03,675][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2023-11-08 20:02:03,675][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.13]
+[2023-11-08 20:02:03,739][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2023-11-08 20:02:03,740][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][291]Root WebApplicationContext: initialization completed in 905 ms
+[2023-11-08 20:02:03,844][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-11-08 20:02:03,875][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.2.9.Final
+[2023-11-08 20:02:03,876][INFO ][org.hibernate.cfg.Environment][main][191]HHH000406: Using bytecode reflection optimizer
+[2023-11-08 20:02:03,950][INFO ][org.hibernate.bytecode.internal.BytecodeProviderInitiator][main][53]HHH000021: Bytecode provider name : bytebuddy
+[2023-11-08 20:02:04,026][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2023-11-08 20:02:04,036][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2023-11-08 20:02:04,142][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4abbe41c
+[2023-11-08 20:02:04,144][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2023-11-08 20:02:04,366][INFO ][org.hibernate.bytecode.internal.BytecodeProviderInitiator][main][53]HHH000021: Bytecode provider name : bytebuddy
+[2023-11-08 20:02:04,769][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][51]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-11-08 20:02:04,833][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-08 20:02:05,014][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][47]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2023-11-08 20:02:05,331][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][231]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-11-08 20:02:05,492][WARN ][org.springframework.context.support.AbstractApplicationContext][main][616]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to introspect Class [org.springdoc.webmvc.api.OpenApiWebMvcResource] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528]
+[2023-11-08 20:02:05,495][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-08 20:02:05,497][INFO ][com.zaxxer.hikari.HikariDataSource][main][350]HikariPool-1 - Shutdown initiated...
+[2023-11-08 20:02:05,498][INFO ][com.zaxxer.hikari.HikariDataSource][main][352]HikariPool-1 - Shutdown completed.
+[2023-11-08 20:02:05,500][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Stopping service [Tomcat]
+[2023-11-08 20:02:05,510][INFO ][org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger][main][82]
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2023-11-08 20:02:05,519][ERROR][org.springframework.boot.SpringApplication][main][827]Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to introspect Class [org.springdoc.webmvc.api.OpenApiWebMvcResource] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.aplikasi.karyawan.KaryawanApplication.main(KaryawanApplication.java:17)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springdoc.webmvc.api.OpenApiWebMvcResource] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360)
+	at org.springframework.core.MethodIntrospector.selectMethods(MethodIntrospector.java:72)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:280)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:225)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	... 16 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: javax/servlet/http/HttpServletRequest
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3502)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2601)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 29 common frames omitted
+[2023-11-08 20:03:10,509][INFO ][org.springframework.boot.StartupInfoLogger][main][51]Starting KaryawanApplication using Java 20 with PID 3956 (D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan\target\classes started by Andika in D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan)
+[2023-11-08 20:03:10,511][INFO ][org.springframework.boot.SpringApplication][main][637]No active profile set, falling back to 1 default profile: "default"
+[2023-11-08 20:03:10,941][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][138]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-11-08 20:03:10,981][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][208]Finished Spring Data repository scanning in 36 ms. Found 5 JPA repository interfaces.
+[2023-11-08 20:03:11,348][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][108]Tomcat initialized with port(s): 8081 (http)
+[2023-11-08 20:03:11,356][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8081"]
+[2023-11-08 20:03:11,357][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2023-11-08 20:03:11,358][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.13]
+[2023-11-08 20:03:11,411][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2023-11-08 20:03:11,411][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][291]Root WebApplicationContext: initialization completed in 865 ms
+[2023-11-08 20:03:11,513][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-11-08 20:03:11,545][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.2.9.Final
+[2023-11-08 20:03:11,546][INFO ][org.hibernate.cfg.Environment][main][191]HHH000406: Using bytecode reflection optimizer
+[2023-11-08 20:03:11,619][INFO ][org.hibernate.bytecode.internal.BytecodeProviderInitiator][main][53]HHH000021: Bytecode provider name : bytebuddy
+[2023-11-08 20:03:11,694][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2023-11-08 20:03:11,701][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2023-11-08 20:03:11,806][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3b021664
+[2023-11-08 20:03:11,807][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2023-11-08 20:03:12,005][INFO ][org.hibernate.bytecode.internal.BytecodeProviderInitiator][main][53]HHH000021: Bytecode provider name : bytebuddy
+[2023-11-08 20:03:12,387][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][51]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-11-08 20:03:12,446][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-08 20:03:12,599][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][47]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2023-11-08 20:03:12,995][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][231]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-11-08 20:03:13,369][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8081"]
+[2023-11-08 20:03:13,383][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][220]Tomcat started on port(s): 8081 (http) with context path '/api'
+[2023-11-08 20:03:13,391][INFO ][org.springframework.boot.StartupInfoLogger][main][57]Started KaryawanApplication in 3.152 seconds (process running for 3.356)
+[2023-11-08 20:05:45,376][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8081-exec-1][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-11-08 20:05:45,376][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8081-exec-1][532]Initializing Servlet 'dispatcherServlet'
+[2023-11-08 20:05:45,377][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8081-exec-1][554]Completed initialization in 1 ms
+[2023-11-08 20:05:45,387][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8081-exec-1][207]Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type is not supported]
+[2023-11-08 20:14:03,364][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-08 20:14:03,365][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2023-11-08 20:14:03,367][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2023-11-08 20:14:05,832][INFO ][org.springframework.boot.StartupInfoLogger][main][51]Starting KaryawanApplication using Java 20 with PID 37856 (D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan\target\classes started by Andika in D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan)
+[2023-11-08 20:14:05,833][INFO ][org.springframework.boot.SpringApplication][main][637]No active profile set, falling back to 1 default profile: "default"
+[2023-11-08 20:14:06,221][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][138]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-11-08 20:14:06,259][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][208]Finished Spring Data repository scanning in 33 ms. Found 5 JPA repository interfaces.
+[2023-11-08 20:14:06,578][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][108]Tomcat initialized with port(s): 8081 (http)
+[2023-11-08 20:14:06,584][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8081"]
+[2023-11-08 20:14:06,585][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2023-11-08 20:14:06,586][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.13]
+[2023-11-08 20:14:06,640][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2023-11-08 20:14:06,640][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][291]Root WebApplicationContext: initialization completed in 776 ms
+[2023-11-08 20:14:06,735][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-11-08 20:14:06,765][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.2.9.Final
+[2023-11-08 20:14:06,767][INFO ][org.hibernate.cfg.Environment][main][191]HHH000406: Using bytecode reflection optimizer
+[2023-11-08 20:14:06,843][INFO ][org.hibernate.bytecode.internal.BytecodeProviderInitiator][main][53]HHH000021: Bytecode provider name : bytebuddy
+[2023-11-08 20:14:06,914][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2023-11-08 20:14:06,922][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2023-11-08 20:14:07,014][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4d290757
+[2023-11-08 20:14:07,015][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2023-11-08 20:14:07,212][INFO ][org.hibernate.bytecode.internal.BytecodeProviderInitiator][main][53]HHH000021: Bytecode provider name : bytebuddy
+[2023-11-08 20:14:07,586][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][51]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-11-08 20:14:07,642][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-08 20:14:07,786][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][47]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2023-11-08 20:14:08,142][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][231]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-11-08 20:14:08,446][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8081"]
+[2023-11-08 20:14:08,462][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][220]Tomcat started on port(s): 8081 (http) with context path '/api'
+[2023-11-08 20:14:08,472][INFO ][org.springframework.boot.StartupInfoLogger][main][57]Started KaryawanApplication in 2.892 seconds (process running for 3.086)
+[2023-11-08 20:15:55,497][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8081-exec-2][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-11-08 20:15:55,497][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8081-exec-2][532]Initializing Servlet 'dispatcherServlet'
+[2023-11-08 20:15:55,498][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8081-exec-2][554]Completed initialization in 1 ms
+[2023-11-08 20:18:22,742][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8081-exec-5][207]Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+[2023-11-08 20:18:37,819][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8081-exec-7][207]Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+[2023-11-08 20:20:55,446][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-08 20:20:55,449][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2023-11-08 20:20:55,450][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2023-11-08 20:20:58,143][INFO ][org.springframework.boot.StartupInfoLogger][main][51]Starting KaryawanApplication using Java 20 with PID 35268 (D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan\target\classes started by Andika in D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan)
+[2023-11-08 20:20:58,144][INFO ][org.springframework.boot.SpringApplication][main][637]No active profile set, falling back to 1 default profile: "default"
+[2023-11-08 20:20:58,565][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][138]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-11-08 20:20:58,608][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][208]Finished Spring Data repository scanning in 37 ms. Found 5 JPA repository interfaces.
+[2023-11-08 20:20:58,947][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][108]Tomcat initialized with port(s): 8081 (http)
+[2023-11-08 20:20:58,951][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8081"]
+[2023-11-08 20:20:58,953][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2023-11-08 20:20:58,953][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.13]
+[2023-11-08 20:20:59,008][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2023-11-08 20:20:59,008][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][291]Root WebApplicationContext: initialization completed in 829 ms
+[2023-11-08 20:20:59,110][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-11-08 20:20:59,136][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.2.9.Final
+[2023-11-08 20:20:59,138][INFO ][org.hibernate.cfg.Environment][main][191]HHH000406: Using bytecode reflection optimizer
+[2023-11-08 20:20:59,205][INFO ][org.hibernate.bytecode.internal.BytecodeProviderInitiator][main][53]HHH000021: Bytecode provider name : bytebuddy
+[2023-11-08 20:20:59,279][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2023-11-08 20:20:59,286][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2023-11-08 20:20:59,389][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6e93b0e7
+[2023-11-08 20:20:59,390][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2023-11-08 20:20:59,599][INFO ][org.hibernate.bytecode.internal.BytecodeProviderInitiator][main][53]HHH000021: Bytecode provider name : bytebuddy
+[2023-11-08 20:20:59,981][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][51]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-11-08 20:21:00,038][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-08 20:21:00,193][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][47]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2023-11-08 20:21:00,566][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][231]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-11-08 20:21:00,916][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8081"]
+[2023-11-08 20:21:00,928][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][220]Tomcat started on port(s): 8081 (http) with context path '/api'
+[2023-11-08 20:21:00,934][INFO ][org.springframework.boot.StartupInfoLogger][main][57]Started KaryawanApplication in 3.055 seconds (process running for 3.251)
+[2023-11-08 20:21:05,375][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8081-exec-1][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-11-08 20:21:05,375][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8081-exec-1][532]Initializing Servlet 'dispatcherServlet'
+[2023-11-08 20:21:05,376][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8081-exec-1][554]Completed initialization in 1 ms
+[2023-11-08 20:21:05,395][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8081-exec-1][207]Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+[2023-11-08 20:21:53,992][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8081-exec-3][207]Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+[2023-11-08 20:21:55,539][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8081-exec-4][207]Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+[2023-11-08 20:22:37,193][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8081-exec-5][207]Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+[2023-11-08 20:22:54,443][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8081-exec-6][207]Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+[2023-11-08 20:22:55,468][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8081-exec-7][207]Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+[2023-11-08 20:22:56,144][WARN ][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver][http-nio-8081-exec-8][207]Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+[2023-11-08 20:29:49,262][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-08 20:29:49,264][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2023-11-08 20:29:49,266][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2023-11-08 20:29:51,867][INFO ][org.springframework.boot.StartupInfoLogger][main][51]Starting KaryawanApplication using Java 20 with PID 21336 (D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan\target\classes started by Andika in D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan)
+[2023-11-08 20:29:51,869][INFO ][org.springframework.boot.SpringApplication][main][637]No active profile set, falling back to 1 default profile: "default"
+[2023-11-08 20:29:52,235][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][138]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-11-08 20:29:52,276][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][208]Finished Spring Data repository scanning in 36 ms. Found 5 JPA repository interfaces.
+[2023-11-08 20:29:52,615][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][108]Tomcat initialized with port(s): 8081 (http)
+[2023-11-08 20:29:52,621][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8081"]
+[2023-11-08 20:29:52,623][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2023-11-08 20:29:52,623][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.13]
+[2023-11-08 20:29:52,675][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2023-11-08 20:29:52,675][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][291]Root WebApplicationContext: initialization completed in 778 ms
+[2023-11-08 20:29:52,790][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-11-08 20:29:52,829][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.2.9.Final
+[2023-11-08 20:29:52,831][INFO ][org.hibernate.cfg.Environment][main][191]HHH000406: Using bytecode reflection optimizer
+[2023-11-08 20:29:52,901][INFO ][org.hibernate.bytecode.internal.BytecodeProviderInitiator][main][53]HHH000021: Bytecode provider name : bytebuddy
+[2023-11-08 20:29:52,975][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2023-11-08 20:29:52,985][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2023-11-08 20:29:53,088][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3d1c52f5
+[2023-11-08 20:29:53,088][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2023-11-08 20:29:53,284][INFO ][org.hibernate.bytecode.internal.BytecodeProviderInitiator][main][53]HHH000021: Bytecode provider name : bytebuddy
+[2023-11-08 20:29:53,647][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][51]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-11-08 20:29:53,703][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-08 20:29:53,864][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][47]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2023-11-08 20:29:54,235][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][231]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-11-08 20:29:54,596][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8081"]
+[2023-11-08 20:29:54,610][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][220]Tomcat started on port(s): 8081 (http) with context path '/api'
+[2023-11-08 20:29:54,616][INFO ][org.springframework.boot.StartupInfoLogger][main][57]Started KaryawanApplication in 3.003 seconds (process running for 3.197)
+[2023-11-08 20:29:57,940][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8081-exec-1][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-11-08 20:29:57,940][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8081-exec-1][532]Initializing Servlet 'dispatcherServlet'
+[2023-11-08 20:29:57,941][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8081-exec-1][554]Completed initialization in 1 ms
+[2023-11-08 20:30:11,104][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-08 20:30:11,106][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2023-11-08 20:30:11,109][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2023-11-08 20:30:14,212][INFO ][org.springframework.boot.StartupInfoLogger][main][51]Starting KaryawanApplication using Java 20 with PID 22744 (D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan\target\classes started by Andika in D:\Andika\BootCamp(SYNERGY)\Project\Testing\karyawan)
+[2023-11-08 20:30:14,213][INFO ][org.springframework.boot.SpringApplication][main][637]No active profile set, falling back to 1 default profile: "default"
+[2023-11-08 20:30:14,588][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][138]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-11-08 20:30:14,628][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][208]Finished Spring Data repository scanning in 36 ms. Found 5 JPA repository interfaces.
+[2023-11-08 20:30:14,951][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][108]Tomcat initialized with port(s): 8081 (http)
+[2023-11-08 20:30:14,955][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8081"]
+[2023-11-08 20:30:14,958][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2023-11-08 20:30:14,958][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.13]
+[2023-11-08 20:30:15,011][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2023-11-08 20:30:15,011][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][291]Root WebApplicationContext: initialization completed in 770 ms
+[2023-11-08 20:30:15,113][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-11-08 20:30:15,145][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.2.9.Final
+[2023-11-08 20:30:15,148][INFO ][org.hibernate.cfg.Environment][main][191]HHH000406: Using bytecode reflection optimizer
+[2023-11-08 20:30:15,221][INFO ][org.hibernate.bytecode.internal.BytecodeProviderInitiator][main][53]HHH000021: Bytecode provider name : bytebuddy
+[2023-11-08 20:30:15,297][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2023-11-08 20:30:15,306][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2023-11-08 20:30:15,404][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@a9e8da1
+[2023-11-08 20:30:15,405][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2023-11-08 20:30:15,585][INFO ][org.hibernate.bytecode.internal.BytecodeProviderInitiator][main][53]HHH000021: Bytecode provider name : bytebuddy
+[2023-11-08 20:30:15,943][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][51]HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-11-08 20:30:16,001][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-08 20:30:16,176][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][47]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2023-11-08 20:30:16,626][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][231]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-11-08 20:30:16,995][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8081"]
+[2023-11-08 20:30:17,014][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][220]Tomcat started on port(s): 8081 (http) with context path '/api'
+[2023-11-08 20:30:17,020][INFO ][org.springframework.boot.StartupInfoLogger][main][57]Started KaryawanApplication in 3.063 seconds (process running for 3.26)
+[2023-11-08 23:05:43,567][WARN ][com.zaxxer.hikari.pool.HikariPool$HouseKeeper][HikariPool-1 housekeeper][804]HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m25s799ms172µs500ns).
+[2023-11-08 23:18:26,390][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-08 23:18:26,400][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2023-11-08 23:18:26,403][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
