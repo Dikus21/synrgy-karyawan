@@ -6,9 +6,7 @@ import com.aplikasi.karyawan.entity.oauth.User;
 import com.aplikasi.karyawan.repository.oauth.UserRepository;
 import com.aplikasi.karyawan.request.GoogleReq;
 import com.aplikasi.karyawan.request.LoginModel;
-import com.aplikasi.karyawan.service.email.EmailSender;
 import com.aplikasi.karyawan.service.oauth.UserService;
-import com.aplikasi.karyawan.utils.EmailTemplate;
 import com.aplikasi.karyawan.utils.TemplateResponse;
 import com.google.api.client.googleapis.auth.oauth2.GoogleCredential;
 import com.google.api.client.googleapis.json.GoogleJsonResponseException;
@@ -17,7 +15,6 @@ import com.google.api.client.json.jackson2.JacksonFactory;
 import com.google.api.services.oauth2.Oauth2;
 import com.google.api.services.oauth2.model.Userinfoplus;
 import lombok.extern.slf4j.Slf4j;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.web.client.RestTemplateBuilder;
@@ -26,17 +23,14 @@ import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.util.MultiValueMap;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.ConstraintViolationException;
 import javax.validation.Valid;
-import javax.xml.ws.Response;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.logging.Logger;
 
 @RestController
 @RequestMapping("/v1/user-login/")
